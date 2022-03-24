@@ -1,5 +1,4 @@
-# baseURL = "https://dgonzalezo.github.io/VisualComputing/"
-baseURL = "https://github.com/dgonzalezo/VisualComputing"
+baseURL = "https://dgonzalezo.github.io/VisualComputing/"
 languageCode = "en-us"
 title = "Showcase Template"
 theme = 'book'
