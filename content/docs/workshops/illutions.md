@@ -34,32 +34,63 @@ En esta ilustración,inventada por el cristalógrafo suizo Louis Albert Necker ,
 
 En esta ilustración,inventada por el cristalógrafo suizo Louis Albert Necker , trata de confundirnos en lo que es aparentemente un cubo, pero sus vértices se superponen según el manejo del sombreado.
 
+#### Puntos de Fuga
+
+Los puntos de fuga nos permiten analizar la percepcion del punto de vista del observador, al momento de disenar planos se usa esta tecnica para mantener una percepcion congruente. Estas lineas que se trazan y convergen permiten dar interpretacion de profundadad en el espacio.
+
+![Puntos de Fuga](/VisualComputing/sketches/t1/pfuga.jpg "Puntos de fuga")
+
+
 ### **3. Metodos**
-Para la exploracion de las animacion se desea hacer uso de 
+Para la exploracion de las animacion se desea hacer uso de diferentes conceptos adquiridos del analisis de las ilusiones anteriormente mencionadas, tomando asi de la ilusion de radios inversa la interpretacion de la modulacion de gris, de la ilusion la silueta o la bailarina la percepcion de giro que se le puede dar a un cuerpo, de la ilusion el Cubo de Necker la interpretacion de 3 dimensiones que se le da a una imagen en 2 dimensiones.
 ### **4. Resultados**
 
 - Exploracion 1
+
+Trazo de lineas que se interpretan como los vertices de un "solido"
+
 {{< p5-iframe sketch="/VisualComputing/sketches/t1/I1.js" width="420" height="526">}}
 
 - Exploracion 2
+
+Se genera una animacion con los trazos en movimiento para logar una percepcion de giro.
+
 {{< p5-iframe sketch="/VisualComputing/sketches/t1/I2.js" width="420" height="526" >}}
 
 - Exploracion 3
+
+Se dibuja un rectangulo que se mueve de ciclicamente de un lado al otro y se aplica un cambio de tamano modular.
+
 {{< p5-iframe sketch="/VisualComputing/sketches/t1/I3.js" width="420" height="526" >}}
 
 - Exploracion 4
+
+Se aplica una modulacion de grises para dar una ilusion de sombra en el rectangulo.
+
 {{< p5-iframe sketch="/VisualComputing/sketches/t1/I4.js" width="420" height="526" >}}
 
 - Exploracion 5
+
+Se da una guia denotando con lineas verticales el movimiento de las lineas superiores e inferiores y con rectas horizontal el movimiento del rectangulo.
+
 {{< p5-iframe sketch="/VisualComputing/sketches/t1/I5.js" width="420" height="526" >}}
 
 
 - Exploracion 6
+
+Se experimento la tecnica de puntos de fuga para dar la impresion de un pasillo infinito y asi lograr una percepcion de volumen en el circulo.
+
 {{< p5-iframe sketch="/VisualComputing/sketches/t1/I6.js" width="425" height="425" >}}
 
 ### **5. Conclusion**
+
+- Comprender el comportamiento perceptual humano permite junto con técnicas de computación visual generar nuevas ilusiones ópticas 
+
+- La variación de un sentido de profundidad le permite al humano interpretar volúmenes en figuras bidimensionales.
+
 ### **#. Referencias**
 
 - [Ilusión de radios inversa](https://michaelbach.de/ot/mot-spokes/index.html)
 - [Ilusión de la silueta o la bailarina](https://michaelbach.de/ot/sze-silhouette/index.html)
 - [El Cubo de Necker](https://michaelbach.de/ot/sze-Necker/index.html)
+- [Puntos de fugo](https://es.wikipedia.org/wiki/Punto_de_fuga)
