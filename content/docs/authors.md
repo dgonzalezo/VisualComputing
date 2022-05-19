@@ -1,7 +1,7 @@
 # Autores
 
 {{< columns >}}
-## Jairo Daniel Salas Mosquera
+## Jairo Daniel Salas Mosquera xD
 <img src="/VisualComputing/sketches/t1/jo2.svg" alt="" style="width:150px; text-align:center;"/>
 
 - Estudiante de Ingeniería de Sistemas y Computación - Universidad Nacional de Colombia
